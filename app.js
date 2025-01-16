@@ -19,6 +19,7 @@ function exibirTextoNaTela(tag, texto) {
         { rate: 1.2 });
 };
 function mensagemInicial() {
+    alert('Os botões DENY(NEGAR) e ALLOW(PERMITIR) servem para ouvir os textos por audio gerado por IA ')
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 3');
 }
